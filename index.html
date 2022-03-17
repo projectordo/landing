@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="ORDO">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" >
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+	<title>ORDO | NFT's Reimagined</title>
+
+</head>
+<body class="side-panel-light has-loading-screen color-theme-blue" data-background-color="#18181b">
+
+    <!--PAGE-->
+
+	<div id="page">
+        <div id="content" class="animate">
+            <div class="content-wrapper">
+                <div class="container">
+                    <div class="brand">
+                        <a href="#">
+                            
+                        </a>
+                    </div>
+                    <!--end brand-->
+                    
+                    <!--end heading-->
+                    <!-- social links will go here -->
+                </div>
+                <!--end container-->
+            </div>
+            <!--end content-wrapper-->
+        </div>
+        <!--end content-->
+		<div class="cd-background-wrapper">
+			<figure class="cd-floating-background">
+				<div class="base-layer">
+                    <canvas id="displayCanvas"></canvas>
+                </div>
+				<!--end layer-->
+				<div class="layer animate pointer-events-none" data-layer-depth="550">
+                    <div id="particles-js"></div>
+                </div>
+				<!--end layer-->
+			</figure>
+			<!--end cd-floating-background-->
+		</div>
+		<!--end cd-background-wrapper-->
+	</div>
+	<!--end page-->
+
+	<script src="assets/js/jquery-2.1.1.js"></script>
+	<script type="text/javascript" src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/pace.min.js"></script>
+	<script src="assets/js/modernizr.js"></script>
+	<script src="assets/js/particle-sphere.js"></script>
+	<script src="assets/js/custom.js"></script>
+	<script type="text/javascript">
+
+        // RGB Color
+        var r = 51;
+        var g = 200;
+        var b = 240;
+        var backgroundColor = "#18181b";
+        window.addEventListener("load", particleSphree(r,g,b, backgroundColor), false);
+
+	</script>
+
+</body>
+</html>
